@@ -15,9 +15,9 @@ cd monkey-testing
 ### 2. Instalar dependencias
 Asegúrate de tener Node.js (versión 18 o superior).
 Luego ejecuta:
-
+```
 npm install
-
+```
 
 Esto instalará:
 
@@ -74,12 +74,14 @@ Puedes modificar la URL de destino cambiando la línea:
 await page.goto("https://losestudiantes.com");
 
 Estructura básica del proyecto
+```
 monkey-testing/
 ├── tests/
 │   └── monkey.spec.js
 ├── package.json
 ├── playwright.config.js
 └── README.md
+```
 
 Tecnologías utilizadas
 
